@@ -15,7 +15,7 @@ if __name__ == "__main__":
         cv.imshow('frame', crop)
 
         if detect_statue(crop):
-            
+            pass
 
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
